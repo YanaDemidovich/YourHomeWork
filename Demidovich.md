@@ -32,12 +32,19 @@
 *_Вариант №1_*
 
 * В своем аккаунте во вкладке репозиториев нажимаем NEW, далее в окне *Repository name* вводим свое название без пробелов и нажимаем *Create repository* и следуем инструкции "…or create a new repository on the command line*:
+
 echo "# Name" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/... .git
+
 git push -u origin main
 
 *_Вариант №2_*
